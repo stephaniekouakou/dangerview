@@ -1,0 +1,397 @@
+body{
+  font-family: lora;
+}
+
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+    margin-left:0;
+    margin-right: 0;
+}
+
+#part_one{
+  background-color: #565050;
+}
+
+#part_one #bloc1{
+  width: 100%;
+  border-bottom: 2px solid #3A3636;
+}
+
+#part_one img{
+  width: 80%;
+  height: 150px;
+  margin-left: 25px;
+
+}
+
+
+#part_one h1{
+     font-size: 20px;
+}
+
+#part_one ul{
+
+}
+
+#part_one ul li {
+
+}
+
+#part_one ul li a{
+  display: block;
+  width: 100%;
+  height: 70px;
+  font-family: lora;
+  font-size: 17px;
+  color:#FFFFFF;
+  padding-top: 20px;
+  text-decoration: none;
+ transition: all 1S;
+
+}
+
+#part_one ul li a:hover{
+    background-color:  rgba(0, 0, 0, 0.3);
+}
+
+#part_one ul li img{
+display: inline-block;
+width: 25px;
+height: 25px;
+margin-right: 20px;
+}
+
+#part_two{
+
+height: 850px;
+  margin: 0px;
+}
+
+#part_two #header{
+  background-color: #EB4133;
+  height: 60px;
+  width: 100%;
+
+}
+
+#part_two #header #aa{
+   display: inline-block;
+   margin-top: 28px;
+
+}
+/*-----------------------------------style utilisateur--------------------*/
+#acceuil_edit .row{
+
+  width: 70%;
+  margin: auto;
+  margin-top: 50px;
+  padding-left: 10%;
+}
+
+#acceuil_edit .row button{
+  width: 400px;
+  height: 100px;
+  border: 1px solid #EEEEEE;
+  margin:auto;
+  background-color: #D9D9D9;
+}
+
+#acceuil_edit .row .dropdown-menu{
+  text-transform: capitalize;
+  font-size: 15px;
+}
+
+/*-----------------------------------style enregistrement lieu--------------------*/
+#enregistre_lieu {
+  font-family: lora;
+   text-transform: capitalize;
+
+}
+
+#enregistre_lieu h1{
+  font-family: lora;
+   text-transform: capitalize;
+   color: #FFC500;
+}
+
+#enregistre_lieu  #description{
+  margin-top: 5px;
+
+}
+
+#enregistre_lieu .form-group {
+  width: 70%;
+  margin: auto;
+  background-color: #ECECEB;
+    margin-top: 20px;
+ padding:5px;
+}
+
+#enregistre_lieu .form-group textarea{
+  width: 300px;
+  height: 100px;
+  margin-right: 60px;
+  margin-left: 20px;
+}
+
+#enregistre_lieu .form-group button{
+  width: 100px;
+  height: 50px;
+  margin-left: 20px;
+  margin-top: 50px;
+}
+
+#enregistre_lieu  #submit{
+  text-align: center;
+  margin-top: 40px;
+
+}
+#enregistre_lieu  #submit input{
+
+}
+/*-----------------------------------style de la page denregistrement de danger-------------------*/
+#typedanger h1{
+  font-family: lora;
+   text-transform: capitalize;
+   color: #FFC500;
+
+}
+
+#typedanger #type {
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #ECECEB;
+  margin-bottom: 20px;
+}
+
+#typedanger #type form{
+  width: 400px;
+}
+/*-----------------------------------style de la pageliste des danger-------------------*/
+
+#listedangers h1{
+  font-family: lora;
+   text-transform: capitalize;
+   color: #FFC500;
+   text-align: center;
+   font-size: 30px;
+   margin-bottom:50px;
+}
+
+#listedangers th{
+  font-family: lora;
+   text-transform: capitalize;
+   color: #565050;
+   text-align: center;
+    font-size:10px;
+    font-weight: bold;
+    background-color: #FFA208;
+
+}
+
+#listedangers tr td{
+  font-family: lora;
+   text-transform: capitalize;
+   color: #565050;
+   text-align: center;
+    font-size:11px;
+
+}
+/*-----------------------------------style de la pageliste deslieux-------------------*/
+#liste_lieu h1{
+  font-family: lora;
+   text-transform: capitalize;
+   color: #FFC500;
+   text-align: center;
+   font-size: 30px;
+   margin-bottom:50px;
+}
+
+#liste_lieu th{
+  font-family: lora;
+   text-transform: capitalize;
+   color: #565050;
+   text-align: center;
+    font-size:10px;
+    font-weight: bold;
+    background-color: #FFA208;
+
+}
+
+#liste_lieu tr td{
+  font-family: lora;
+   text-transform: capitalize;
+   color: #565050;
+   text-align: center;
+    font-size:11px;
+
+}
+
+/*----------------------modifier un lieu--------------------*/
+#modifie_lieu {
+  font-family: lora;
+   text-transform: capitalize;
+
+}
+
+#modifie_lieu h1{
+  font-family: lora;
+   text-transform: capitalize;
+   color: #FFC500;
+}
+
+#modifie_lieu  #description{
+  margin-top: 5px;
+
+}
+
+#modifie_lieu .form-group {
+  width: 70%;
+  margin: auto;
+  background-color: #ECECEB;
+    margin-top: 20px;
+ padding:5px;
+}
+
+#modifie_lieu .form-group textarea{
+  width: 300px;
+  height: 100px;
+  margin-right: 60px;
+  margin-left: 20px;
+}
+
+#modifie_lieu .form-group button{
+  width: 100px;
+  height: 50px;
+  margin-left: 20px;
+  margin-top: 50px;
+}
+
+#modifie_lieu  #submit{
+  text-align: center;
+  margin-top: 40px;
+
+}
+#modifie_lieu  #submit input{
+
+}
+/*-------------------------------style profil-------------------*/
+
+#profil .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+  font-family: lora;
+}
+
+#profil .title {
+  color: grey;
+  font-size: 30px;
+  text-align:center;
+  text-transform: capitalize;
+  width: 10%;
+  margin-left: -20px;
+  margin: auto;
+  font-family: lora;
+}
+
+#profil button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+#profil .row{
+  background-color: #FFC500;
+}
+
+#profil a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+#profil button:hover, a:hover {
+  opacity: 0.7;
+}
+
+#profil h1{
+  font-family: lora;
+  text-transform: capitalize;
+}
+
+/*-------------------------------style modif_profil-------------------*/
+#modif_profil {
+  width: 80%;
+  margin:20px auto;
+
+}
+
+
+#modif_profil form fieldset{
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+     margin-top: 20px;
+     padding: 10px;
+     border-color: #dadada;
+}
+
+
+#modif_profil form  fieldset legend{
+display: block;
+margin-top: -20px;
+font-family: lora;
+  color:  #565050;
+
+  font-size: 15px;
+}
+
+
+#modif_profil form label{
+  color: #4d636f;
+  font-size: 13px;
+  font-family: lora;
+
+}
+
+#modif_profil form select{
+  width: 90%;
+  height: 30px;
+  outline: none;
+  padding-left: 20px;
+  border: none;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+}
+
+#modif_profil form input{
+  width: 90%;
+  height: 30px;
+  font-size: 15px;
+  outline: none;
+  padding-left: 20px;
+  border: none;
+  margin-bottom: 10px;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+}
+
+#modif_profil form input:focus{
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+#modif_profil form input[type=submit]{
+  width: 20%;
+  border: none;
+  font-family: lora;
+  transition: all 1s ;
+  text-transform: capitalize;
+  cursor: pointer;
+}

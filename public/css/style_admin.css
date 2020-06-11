@@ -1,0 +1,448 @@
+body{
+
+
+}
+
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+    margin-left:0;
+    margin-right: 0;
+}
+
+#part_one{
+  background-color: #565050;
+  height: 900px;
+}
+
+#part_one #bloc1{
+  width: 100%;
+  border-bottom: 2px solid #3A3636;
+}
+
+#part_one img{
+  width: 80%;
+  height: 150px;
+  margin-left: 25px;
+
+}
+
+#part_one h1{
+     font-size: 20px;
+}
+
+#part_one ul{
+
+}
+
+#part_one ul li {
+
+}
+
+#part_one ul li a{
+  display: block;
+  width: 100%;
+  height: 70px;
+  font-family: lora;
+  font-size: 17px;
+  color:#FFFFFF;
+  padding-top: 20px;
+  text-decoration: none;
+ transition: all 1S;
+
+}
+
+#part_one ul li a:hover{
+    background-color:  rgba(0, 0, 0, 0.3);
+}
+
+#part_one ul li img{
+display: inline-block;
+width: 25px;
+height: 25px;
+margin-right: 20px;
+}
+
+#part_two{
+
+height:900px;
+  margin: 0px;
+}
+
+#part_two #header{
+  background-color: #FFC500;
+  height: 60px;
+  width: 100%;
+
+}
+
+#part_two #header #aa{
+   display: inline-block;
+   margin-top: 28px;
+
+}
+
+/*---------------------------------style page acceuil-----------------------------*/
+
+#content_acceuil{
+
+   width: 100%;
+   height: auto;
+}
+
+#content_acceuil #dd{
+
+  width: 80%;
+  margin:40px auto;
+  height: auto;
+
+}
+
+
+#content_acceuil #crow1{
+
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-top: 50px;
+}
+
+#content_acceuil #crow1 > div{
+margin-left: 25px;
+  width: ;
+  height: 170px;
+    background-color: #EEEEEE;
+    border-radius: 8px;
+}
+
+#content_acceuil #crow1 > #bloc1{
+  margin-right: 50px;
+
+}
+
+#content_acceuil #crow1  #bloc1 img{
+     width: 18%;
+     height: 18%;
+     margin-top: 20px;
+}
+
+
+#content_acceuil #crow1 #bloc1> #titre{
+  text-align: center;
+  font-size: 22px;
+  color: #3A3636;
+  font-family: lora;
+  font-weight: bold;
+
+}
+
+#content_acceuil #crow1 #bloc1 #nombre{
+  text-align: center;
+  font-size: 30px;
+  color: #FEC400;
+  font-family: lora;
+  font-weight: bold;
+}
+
+#content_acceuil #crow1  #bloc2 img{
+     width: 18%;
+     height: 18%;
+     margin-top: 20px;
+}
+
+
+#content_acceuil #crow1 #bloc2 #titre{
+  text-align: center;
+  font-size: 22px;
+  color: #3A3636;
+  font-family: lora;
+  font-weight: bold;
+
+}
+
+#content_acceuil #crow1 #bloc2 #nombre{
+  text-align: center;
+  font-size: 30px;
+  color: #FEC400;
+  font-family: lora;
+  font-weight: bold;
+}
+
+
+#content_acceuil #crow2{
+margin-top: 50px;
+  width: 100%;
+  height: auto;
+  display: flex;
+
+}
+
+#content_acceuil #crow2 > div{
+ margin-left: 25px;
+  width: ;
+  height: 170px;
+    background-color: #EEEEEE;
+      border-radius: 8px;
+}
+
+#content_acceuil #crow2  #bloc3 img{
+     width: 18%;
+     height: 18%;
+     margin-top: 20px;
+}
+
+#content_acceuil #crow2  #bloc4 img{
+     width: 18%;
+     height: 18%;
+     margin-top: 20px;
+}
+
+
+#content_acceuil #crow2 #bloc3 #titre{
+  text-align: center;
+  font-size: 22px;
+  color: #3A3636;
+  font-family: lora;
+  font-weight: bold;
+
+}
+
+#content_acceuil #crow2 #bloc4 #titre{
+  text-align: center;
+  font-size: 22px;
+  color: #3A3636;
+  font-family: lora;
+  font-weight: bold;
+
+}
+
+#content_acceuil #crow2 #bloc3 #nombre{
+  text-align: center;
+  font-size: 30px;
+  color: #CE0033;
+  font-family: lora;
+  font-weight: bold;
+}
+
+#content_acceuil #crow2 #bloc4 #nombre{
+  text-align: center;
+  font-size: 30px;
+  color: #CE0033;
+  font-family: lora;
+  font-weight: bold;
+}
+
+
+
+#content_acceuil #crow2 > #bloc3{
+  margin-right: 50px;
+
+
+
+}
+
+/*---------------------------------style connexion edit-----------------------------*/
+#traite_connexEdit h1{
+  font-size: 20px;
+  font-family: lora;
+  text-transform: capitalize;
+}
+
+#traite_connexEdit form{
+  width: 350PX;
+  height: auto;
+
+}
+
+#traite_connexEdit .container{
+    margin-top: 50px;
+}
+
+#traite_connexEdit #form #alert{
+
+  margin-top: 50px;
+  margin-left: 180px;
+}
+
+/*---------------------------------style profil admin-----------------------------*/
+
+#profil {
+
+}
+
+#profil .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+  font-family: lora;
+}
+
+#profil .title {
+  color: grey;
+  font-size: 30px;
+  text-align:center;
+  text-transform: capitalize;
+  width: 10%;
+  margin-left: -20px;
+  margin: auto;
+  font-family: lora;
+}
+
+#profil button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+#profil .row{
+  background-color: #FFC500;
+}
+
+#profil a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+#profil button:hover, a:hover {
+  opacity: 0.7;
+}
+
+#profil h1{
+  font-family: lora;
+  text-transform: capitalize;
+}
+
+/*-------------------------------style modif_profil-------------------*/
+#modif_profil {
+  width: 80%;
+  margin:20px auto;
+
+}
+
+
+#modif_profil form fieldset{
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+     margin-top: 20px;
+     padding: 10px;
+     border-color: #dadada;
+}
+
+
+#modif_profil form  fieldset legend{
+display: block;
+margin-top: -20px;
+font-family: lora;
+  color:  #565050;
+
+  font-size: 15px;
+}
+
+
+#modif_profil form label{
+  color: #4d636f;
+  font-size: 13px;
+  font-family: lora;
+
+}
+
+#modif_profil form select{
+  width: 90%;
+  height: 30px;
+  outline: none;
+  padding-left: 20px;
+  border: none;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+}
+
+#modif_profil form input{
+  width: 90%;
+  height: 30px;
+  font-size: 15px;
+  outline: none;
+  padding-left: 20px;
+  border: none;
+  margin-bottom: 10px;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+}
+
+#modif_profil form input:focus{
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+#modif_profil form input[type=submit]{
+  width: 20%;
+  border: none;
+  font-family: lora;
+  transition: all 1s ;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+/*---------------------------------style page ajout utilisateur-----------------------------*/
+#ajout_utilisateur h1{
+  text-align: center;
+  font-family: lora;
+  font-size: 30px;
+  text-transform: capitalize;
+  margin-top: 30px;
+}
+
+#ajout_utilisateur .form-group {
+  width: 500px;
+  font-family: lora;
+  text-transform: capitalize;
+
+
+}
+
+#ajout_utilisateur .btn {
+    width: 150px;
+    margin-left: 110px
+}
+
+#ajout_utilisateur #ajout{
+  margin-left: 5px;
+  width: 100%;
+  height: auto;
+  margin-top: 40px;
+
+}
+
+#ajout_utilisateur #alert{
+  margin-top: 40px;
+}
+
+#ajout_utilisateur #select{
+  font-family: lora;
+  text-transform: capitalize;
+}
+/*---------------------------------style page message-----------------------------*/
+.error-notice {
+  margin: 5px 5px; /* Making sure to keep some distance from all side */
+}
+
+.oaerror {
+  width: 900px; /* Configure it fit in your design  */
+  margin: 0 auto; /* Centering Stuff */
+  background-color: #FFFFFF; /* Default background */
+  padding: 20px;
+  border: 1px solid #eee;
+  border-left-width: 5px;
+  border-radius: 3px;
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+.success {
+  border-left-color: #d9534f; /* Left side border color */
+  background-color: rgba(217, 83, 79, 0.1); /* Same color as the left border with reduced alpha to 0.1 */
+}

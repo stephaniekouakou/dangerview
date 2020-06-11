@@ -1,0 +1,83 @@
+*{
+  margin:0;
+  padding: 0;
+}
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+    margin-left:0;
+    margin-right: 0;
+}
+
+.center-div{
+
+}
+
+.heading{
+  width: 100%;
+  line-height: 80px;
+  font-size: 13px;
+  background-color: #565050;
+  font-family: lora;
+
+}
+
+.heading a{
+  color: #FCFCFC;
+
+  padding: 0;
+  height: 50px;
+}
+
+
+
+
+form{
+  width: 350PX;
+  height: auto;
+
+}
+
+#form #alert{
+
+  margin-top: 40px;
+  margin-left: 380px;
+}
+
+/*---------------------------------style page ajout utilisateur-----------------------------*/
+#ajout_utilisateur h1{
+  text-align: center;
+  font-family: lora;
+  font-size: 30px;
+  text-transform: capitalize;
+  margin-top: 30px;
+}
+
+#ajout_utilisateur .form-group {
+  width: 400px;
+  font-family: lora;
+  text-transform: capitalize;
+
+}
+
+#ajout_utilisateur .btn {
+    width: 150px;
+    margin-left: 110px
+}
+
+#ajout_utilisateur #ajout{
+  margin-left: 5px;
+  width: 100%;
+  height: auto;
+  margin-top: 40px;
+
+}
+
+#ajout_utilisateur #alert{
+  margin-top: 40px;
+}
+
+#ajout_utilisateur #select{
+  font-family: lora;
+  text-transform: capitalize;
+}
